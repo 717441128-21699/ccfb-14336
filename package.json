@@ -1,0 +1,17 @@
+{
+  "name": "vn-text-engine",
+  "version": "0.1.0",
+  "description": "Visual novel text display engine: CJK typesetting (horizontal/vertical, kinsoku, ruby), typewriter effects, font subsetting",
+  "type": "module",
+  "scripts": {
+    "build": "tsc -p tsconfig.json",
+    "test": "node --test test/",
+    "fonts": "node tools/build-fonts.ts",
+    "serve": "node tools/serve.ts",
+    "demo": "node tools/build-fonts.ts && node tools/serve.ts"
+  },
+  "devDependencies": {
+    "@types/node": "^24.0.0",
+    "typescript": "^5.9.0"
+  }
+}

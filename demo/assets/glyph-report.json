@@ -1,0 +1,35 @@
+{
+  "totalLines": 10012,
+  "uniqueChars": 481,
+  "fullFontBytes": 353880,
+  "statsMs": 59,
+  "genFullMs": 39,
+  "subsets": {
+    "zh-Hans": {
+      "file": "vnfont-zh-Hans.ttf",
+      "chars": 291,
+      "glyphs": 292,
+      "bytes": 23276,
+      "missing": 0,
+      "subsetMs": 3
+    },
+    "zh-Hant": {
+      "file": "vnfont-zh-Hant.ttf",
+      "chars": 281,
+      "glyphs": 282,
+      "bytes": 22456,
+      "missing": 0,
+      "subsetMs": 2
+    },
+    "ja": {
+      "file": "vnfont-ja.ttf",
+      "chars": 281,
+      "glyphs": 282,
+      "bytes": 22432,
+      "missing": 0,
+      "subsetMs": 1
+    }
+  },
+  "subsetMsTotal": 6,
+  "pipelineMs": 145
+}

@@ -13,6 +13,8 @@ credentials*.json
 .npmrc
 .pypirc
 node_modules/
+dist/
+demo/assets/*.ttf
 __pycache__/
 .venv/
 venv/

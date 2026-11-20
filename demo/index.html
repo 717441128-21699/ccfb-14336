@@ -1,0 +1,18 @@
+<!doctype html>
+<html lang="zh">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>视觉小说文本引擎 Demo</title>
+<style>
+  html, body { margin: 0; height: 100%; background: #10131a; display: grid; place-items: center; }
+  canvas { background: #1a1f2b; border-radius: 8px; box-shadow: 0 8px 40px #000a; }
+  #hint { position: fixed; left: 12px; bottom: 8px; color: #8a93a6; font: 12px/1.6 system-ui; white-space: pre; }
+</style>
+</head>
+<body>
+<canvas id="stage" width="960" height="540"></canvas>
+<div id="hint">点击:逐字→补完→下一句 | V:横/竖排 | B:历史回放 | 1简 2繁 3日</div>
+<script type="module" src="../dist/demo/main.js"></script>
+</body>
+</html>
